@@ -1,57 +1,23 @@
-# 2026 Economic & Trading Thesis Repository
+# market-thesis
 
-**Status:** Active  
-**Primary Horizon:** 12–24 months (through Nov 2026 U.S. mid-term elections)  
-**Discipline:** Data-first, narrative-agnostic, institution-grade
+This repository is a verified component of the **Twin-Cities-Open-Systems (TCOS)** architecture.
 
----
-
-## Purpose of This Repository
-
-This repository contains a **modular, versioned investment thesis** designed to:
-- Capture a coherent macro + market view
-- Translate that view into portfolio construction
-- Enforce strict separation between human reasoning, machine logic, and live data
-
-This is a **decision framework**, not a signal service or prediction engine.
+* **Ecosystem Role:** [Insert the precise Purpose we defined in the master index]
+* **Visibility Standard:** [Public | Private -> Public | Very Private]
 
 ---
 
-## Core Principles
+## 🛠️ Global Alignment & Invariants
 
-1. Human-Readable (HR) thesis is the source of truth  
-2. JSON and AGENT files are always derived  
-3. DATA files never change logic  
-4. Unverified claims are explicitly flagged  
-5. Data overrides narrative, always  
+This codebase strictly adheres to the core engineering principles, scripting standards, and structural invariants mandated by the organization. 
 
----
+* **Scripting Guardrails:** All userland scripts (`.sh`, `.py`, `.awk`) inside this repository enforce the portable shebang syntax and a mandatory 4-line metadata header block.
+* **Terminology & Definitions:** Operational concepts, naming matrices, and architectural definitions match our centralized single source of truth.
 
-## Repository Structure
-
-See `THESIS_VERSIONING_AND_INTEGRITY_RULES.md` for authoritative rules.
+For complete compliance blueprints, operational roadmaps, and the global architecture manifest, refer back directly to the primary [TCOS Command Center Config](../.github).
 
 ---
 
-## Workflow Summary
+## 📜 Governance & Guidelines
+Contributions, architectural proposals, and documentation changes inside this node must follow our organizational frameworks. Review our global guidelines in the centralized [TCOS Glossary](../.github/blob/main/profile/GLOSSARY.md).
 
-**Logic changes:**  
-Changelog → New HR → Regenerate JSON/AGENT
-
-**Data updates:**  
-New DATA patch → Compare vs triggers → Decide action
-
----
-
-## Intended Users
-
-- Advanced individual investors
-- Portfolio managers
-- Macro analysts
-- Agent / automation workflows
-
----
-
-## Disclaimer
-
-Educational and analytical use only. No guarantees implied.
