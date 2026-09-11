@@ -1,3 +1,20 @@
+# >>> hee gitignore base >>>
+# Managed by: hee check gitignore --fix. Edit the base, not this block.
+# Base: /home/claude/git/.github/gitignore/base.gitignore
+# Never negate one of these back in: in a public repo it publishes
+# the file permanently -- see pr:609@human-execution-engine.
+secrets/
+.hee/secrets/
+*.env
+*.pem
+*.p12
+*.pfx
+.netrc
+id_rsa
+id_ecdsa
+id_ed25519
+# <<< hee gitignore base <<<
+
 # OS
 .DS_Store
 Thumbs.db
